@@ -1,7 +1,7 @@
 [
   {
     "repository": "CyanogenMod/android_kernel_huawei_angler",
-    "target_path": "kernel/lge/hammerhead",
+    "target_path": "kernel/huawei/angler",
     "branch":      "cm-13.0"
   },
   {
