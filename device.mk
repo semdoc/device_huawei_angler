@@ -367,7 +367,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.image-dex2oat-threads=4
 
 # Modem debugger
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += \
     QXDMLogger
 
