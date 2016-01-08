@@ -372,7 +372,6 @@ PRODUCT_PACKAGES += \
     QXDMLogger
 
 # Snap (Snapdragon) camera
-ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += \
     Snap
 
