@@ -371,6 +371,11 @@ ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += \
     QXDMLogger
 
+# Snap (Snapdragon) camera
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
+PRODUCT_PACKAGES += \
+    Snap
+
 PRODUCT_COPY_FILES += \
     device/huawei/angler/init.angler.diag.rc.userdebug:root/init.angler.diag.rc
 
