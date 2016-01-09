@@ -177,6 +177,10 @@ PRODUCT_PACKAGES += \
     libqomx_core \
     mm-qcamera-app
 
+# Snap (Snapdragon) camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Sensor & activity_recognition HAL
 PRODUCT_PACKAGES += \
     sensors.angler \
@@ -370,10 +374,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += \
     QXDMLogger
-
-# Snap (Snapdragon) camera
-PRODUCT_PACKAGES += \
-    Snap
 
 PRODUCT_COPY_FILES += \
     device/huawei/angler/init.angler.diag.rc.userdebug:root/init.angler.diag.rc
