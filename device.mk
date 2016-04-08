@@ -182,6 +182,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.cpp.duplication=false
+
 # Sensor & activity_recognition HAL
 PRODUCT_PACKAGES += \
     sensors.angler \
