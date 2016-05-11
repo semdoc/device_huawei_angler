@@ -390,6 +390,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product, frameworks/native/build/phone-xxxhdpi-3072-dalvik-heap.mk)
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-hwui-memory.mk)
 
+# drmservice prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
+
 # facelock properties
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.facelock.black_timeout=400 \
