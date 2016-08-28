@@ -186,7 +186,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.cpp.duplication=false
 
 # Gello
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     Gello
 
 # Sensor & activity_recognition HAL
