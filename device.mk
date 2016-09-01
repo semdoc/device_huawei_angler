@@ -407,6 +407,10 @@ ro.facelock.lively_timeout=2500 \
 ro.facelock.est_max_time=600 \
 ro.facelock.use_intro_anim=false
 
+# OEM Unlock reporting
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.oem_unlock_supported=1
+
 $(call inherit-product-if-exists, hardware/qcom/msm8994/msm8994.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8994/msm8994-gpu-vendor.mk)
 
