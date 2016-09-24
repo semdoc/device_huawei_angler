@@ -126,8 +126,6 @@ BOARD_SEPOLICY_DIRS += \
 
 TARGET_USES_64_BIT_BINDER := true
 
-TARGET_USES_AOSP := true
-
 TARGET_USES_INTERACTION_BOOST := true
 
 # Force camera module to be compiled only in 32-bit mode on 64-bit systems
@@ -161,7 +159,5 @@ BOARD_HARDWARE_CLASS := \
     device/huawei/angler/cmhw
 
 USE_CLANG_PLATFORM_BUILD := true
-
-TARGET_FS_CONFIG_GEN += device/huawei/angler/config.fs
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
