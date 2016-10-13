@@ -204,7 +204,10 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface2 \
     libmmjpeg_interface \
     libqomx_core \
-    mm-qcamera-app \
+    mm-qcamera-app
+
+# Snap (Snapdragon) camera
+#PRODUCT_PACKAGES += \
     Snap
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -216,7 +219,7 @@ PRODUCT_PACKAGES += \
     gps.msm8994
 
 # Gello
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     Gello
 
 # Sensor & activity_recognition HAL
