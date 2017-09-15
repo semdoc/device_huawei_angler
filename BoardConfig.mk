@@ -168,10 +168,4 @@ BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh
 
 TARGET_FS_CONFIG_GEN += device/huawei/angler/config.fs
 
-# CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS := \
-    hardware/cyanogen/cmhw \
-    device/huawei/angler/cmhw
-
 -include vendor/huawei/angler/BoardConfigVendor.mk
