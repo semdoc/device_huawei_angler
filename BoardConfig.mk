@@ -172,3 +172,7 @@ DEVICE_MATRIX_FILE := device/huawei/angler/compatibility_matrix.xml
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
+
+# Legacy blob support
+TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
+    /vendor/bin/mm-qcamera-daemon=27
