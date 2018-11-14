@@ -1,0 +1,12 @@
+[
+ {
+   "repository": "GZR-Kernels/kernel_huawei_angler",
+   "target_path": "kernel/huawei/angler",
+   "branch": "9.0"
+ },
+ {
+   "repository": "BigTopKrazies/proprietary_vendor_huawei",
+   "target_path": "vendor/huawei",
+   "branch": "9.0"
+ }
+]
