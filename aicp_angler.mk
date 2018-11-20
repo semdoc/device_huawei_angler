@@ -33,6 +33,10 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
 PRODUCT_MANUFACTURER := Huawei
 
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="doc HD (semdoc), Davor B (LorD ClockaN)"
+
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
