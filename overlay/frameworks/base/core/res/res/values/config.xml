@@ -151,6 +151,9 @@
          We set this to orange as low is red and charged is green -->
     <integer name="config_notificationsBatteryMediumARGB">0xFF0000FF</integer>
 
+    <!-- Does the device supports fast charging -->
+    <bool name="config_FastChargingLedSupported">true</bool>
+
     <!-- reference volume index for music stream to limit headphone volume and display warning -->
     <integer name="config_safe_media_volume_index">4</integer>
 
