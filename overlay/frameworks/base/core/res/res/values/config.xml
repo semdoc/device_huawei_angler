@@ -445,4 +445,7 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">64</integer>
 
+    <!-- Does the device supports Smart Battery -->
+    <bool name="config_smart_battery_available">true</bool>
+
 </resources>
